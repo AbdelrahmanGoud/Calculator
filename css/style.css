@@ -1,0 +1,60 @@
+*
+{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+}
+body
+{
+          background:linear-gradient(#9bc6a8,#dde5bc);
+          background:linear-gradient(#036268,#9bc6a8);
+          background:linear-gradient(#044750,#036268);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+}
+.calck
+{
+          display: grid;
+          grid-template-columns: repeat(4,80px);
+          box-shadow: 5px 5px 15px black;
+          
+}
+input
+{
+          grid-column: span 4;
+          border: none;
+          outline: none;
+          height: 100px;
+          text-align: end;
+          font-size: 35px;
+          font-family: monospace;
+          padding: 12px;
+          
+}
+button
+{
+          border: none;
+          outline: none;
+          width: 80px;
+          height: 80px;
+          font-size: 25px;
+          font-family: monospace;
+          color: white;
+          background-color: #222;
+          
+}
+button:active
+{
+          background-color: #1e728e;
+}
+.eq
+{
+          width: 160px;
+          background-color: #0059bf !important;
+}
+.Cl
+{
+          background-color: #831c1c !important;
+}
